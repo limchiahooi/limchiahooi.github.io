@@ -192,11 +192,12 @@
         <div class="section" id="portfolio">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 ml-auto mr-auto">
+              <div class="col-md-8 ml-auto mr-auto">
                 <div class="h4 text-center mb-4 title">Portfolio</div>
                 <div class="nav-align-center">
                   <ul class="nav nav-pills nav-pills-primary" role="tablist">
-                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#fin-viz" role="tablist" title="Financial Visualization"><i class="fa fa-line-chart" aria-hidden="true"></i></a></li>
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#trading-signals" role="tablist" title="Trading Signals"><i class="fa fa-line-chart" aria-hidden="true"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#fin-viz" role="tablist" title="Financial Visualization"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#projects" role="tablist" title="Projects"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#machine-learning-in-finance" role="tablist" title="Machine Learning in Finance"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a></li>
                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#nlp" role="tablist" title="Natural Language Processing (NLP)"><i class="fa fa-language" aria-hidden="true"></i></a></li>
@@ -264,7 +265,7 @@
 
 
               <!-- Portfolio: Financial Visualization -->
-              <div class="tab-pane active" id="fin-viz">
+              <div class="tab-pane" id="fin-viz">
                 <div class="ml-auto mr-auto">
                   <div class="row">
                     
@@ -433,13 +434,29 @@
 
 
 
+              <!-- Portfolio: Trading Signals -->
+              <div class="tab-pane active" id="trading-signals">
+                <div class="ml-auto mr-auto">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                          <iframe src="https://limchiahooi.github.io/trading_signals" style="margin:auto; min-height:1024px;min-width:100%;"  frameBorder="0" scrolling="auto" overflow: hidden;>
+                              Browser not compatible.
+                          </iframe>
+                      </div>                        
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
               <!-- Portfolio: NLP -->
               <div class="tab-pane" id="nlp">
                 <div class="ml-auto mr-auto">
                   <div class="row">
                     <div class="col-md-12">
                       <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                          <iframe src="https://toxic-comment-gcp.appspot.com" style="margin:auto; display:block;min-height:720px;width:100%;"  frameBorder="0" scrolling="auto" overflow: hidden;>
+                          <iframe src="https://toxic-comment-clf.herokuapp.com" style="margin:auto; display:block;min-height:800px;width:100%;"  frameBorder="0" scrolling="auto" overflow: hidden;>
                               Browser not compatible.
                           </iframe>
                       </div>                        
